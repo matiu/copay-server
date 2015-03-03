@@ -12,9 +12,9 @@ var memdown = require('memdown');
 var log = require('npmlog');
 log.debug = log.verbose;
 var Bitcore = require('bitcore');
+var WalletUtils = require('bitcore-wallet-utils');
 
 var Utils = require('../../lib/utils');
-var WalletUtils = require('../../lib/walletutils');
 var Storage = require('../../lib/storage');
 
 var Wallet = require('../../lib/model/wallet');
